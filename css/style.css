@@ -17,7 +17,7 @@ nav#main-nav{
 	background-color: #fff;
 }
 section#left-page{
-	width: 750px;
+	width: 650px;
 	padding: 10px; 
 	float: left;
 
@@ -92,6 +92,7 @@ font-size: 0px;
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
+
 }
 .rec-post ul{
 	margin: 0px;
@@ -111,3 +112,20 @@ font-size: 0px;
 .rec-post h3{
 	margin: 3px 0px;
 }
+.content-block ul{
+	list-style: none;
+}
+.content-block ul li img{
+	float: left;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.content-block ul li{
+	border-bottom: 1px solid #eee;
+}
+h3 a{
+	text-decoration: none;
+	color: black;
+}
+
+
