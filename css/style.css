@@ -36,7 +36,20 @@ footer#footer-page{
 	width: 100%;
 	-webkit-box-shadow: 0 7px 5px 0 #FFFFFF;
 	box-shadow: 0 7px 5px 0 #FFFFFF;
+	margin-bottom: 20px;
 }
 .block header{
-	border-top: 2px blue;
+	border-top: 3px solid cyan;
+	border-bottom: 1px solid #eee;
+}
+.block header h3{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 5px;
+	font-family: arial;
+	color: #5d5d5d;
+	font-size: 0.95em;
+}
+.block .content-block{
+	padding: 10px;
 }
