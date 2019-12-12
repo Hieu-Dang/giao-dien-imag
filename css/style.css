@@ -29,7 +29,7 @@ aside{
 }
 .clr{clear: both;}
 footer#footer-page{
-	min-height: 100px;
+	min-height: 500px;
 	background-color: #252525;
 }
 .block{
@@ -122,10 +122,27 @@ font-size: 0px;
 }
 .content-block ul li{
 	border-bottom: 1px solid #eee;
+	margin-bottom: 5px;
 }
 h3 a{
 	text-decoration: none;
 	color: black;
+}
+#footer-page .about_us{
+	width: 25%;
+	float: left;
+	color: white;
+
+}
+#footer-page .about_us h3 a{
+	color: white;
+}
+.about_us header{
+	font-family: arial;
+	border-bottom: 1px dashed white;
+}
+.about_us .content-block div{
+	float: left;
 }
 
 
