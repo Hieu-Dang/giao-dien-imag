@@ -17,14 +17,14 @@ nav#main-nav{
 	background-color: #fff;
 }
 section#left-page{
-	width: 650px;
-	padding: 10px; 
+	width: 600px;
+	padding: 5px; 
 	float: left;
 
 }
 aside{
-	width: 250px;
-	padding: 10px; 
+	width: 300px;
+	padding: 5px; 
 	float: right;
 }
 .clr{clear: both;}
