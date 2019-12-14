@@ -172,12 +172,29 @@ h3 a{
 	#main-nav ul li{
 		display: block;
 	}
-	#left-page{
+	#nav-bar{
+		width: 100%;
+	}
+	section#left-page{
 		width: 100%;
 	}
 	#anhslide{
 		width: 100%;
 	}
+	.content-block .hot img{
+		float: none;
+		width: 100%
+	}
+	aside{
+		float: none;
+	}
 
-	
+	.rec-post ul li{
+		width: 100%;
+}
+#footer-page .about_us{
+	float: none;
+}
+#footer-page{
+	width: 100%;
 }
