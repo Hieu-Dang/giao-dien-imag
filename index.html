@@ -6,6 +6,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<div id="page">
 		<header id="top-page">
 			<a href="index.html"><img src="image/logo.jpg"></a>
@@ -21,7 +22,7 @@
 		<div id="body-page">
 			<section id="left-page">
 				<div id="slide-show">
-					<img src="image/anh-slide.jpg" style="width: 100%">
+					<img id="anhslide" src="image/anh-slide.jpg">
 				</div>
 				<!-- bắt đầu khối -->
 				<div class="block rec-post">
@@ -146,7 +147,7 @@
 					<header>
 						<h3>Category name</h3>	
 					</header>
-					<div class="content-block">
+					<div class="content-block_phai">
 						<ul>
 							<li>
 								<img src="image/pd2.jpg">
@@ -175,7 +176,7 @@
 					<header>
 						<h3>Popular post</h3>	
 					</header>
-					<div class="content-block">
+					<div class="content-block_phai">
 						<ul>
 							<li>
 								<img src="image/pd2.jpg">
@@ -203,7 +204,7 @@
 					<header>
 						<h3>news letter subscrise</h3>	
 					</header>
-					<div class="content-block">
+					<div class="content-block_phai">
 						<div style="margin: auto;width: 80%"><input type="text" placeholder="Email Address"></div>
 						<div style="margin: auto;width: 30%; padding-top: 5px;" ><input type="button" value="Subscrise"></div>	
 					</div>
@@ -214,7 +215,7 @@
 					<header>
 						<h3>facebook fans</h3>	
 					</header>
-					<div class="content-block">
+					<div class="content-block_phai">
 						<div><img style="width: 100%; margin-bottom: 20px;" src="image/fbff.png"></div>
 					</div>
 				</div>
@@ -224,7 +225,7 @@
 					<header>
 						<h3>categories</h3>	
 					</header>
-					<div class="content-block">
+					<div class="content-block_phai">
 						<ul>
 							<li>aciform</li>
 							<li>Cat A</li>
@@ -245,7 +246,7 @@
 					<header>
 						<h3>circle us</h3>	
 					</header>
-					<div class="content-block">
+					<div class="content-block_phai">
 						<div class="clr"></div>
 					</div>
 				</div>
@@ -260,7 +261,7 @@
 				<header>
 					<h3>About Us</h3>
 				</header>
-				<div class="content-block">
+				<div class="f-content-block">
 					<p>Donec dui sem, blanditvitae</p>
 				</div>
 			</div>
@@ -268,7 +269,7 @@
 					<header>
 						<h3>Popular Posts</h3>
 					</header>
-					<div class="content-block">
+					<div class="f-content-block">
 						<ul>
 							<li>
 								<img src="image/pd2.jpg">
@@ -295,7 +296,7 @@
 					<header>
 						<h3>Category</h3>
 					</header>
-					<div class="content-block">
+					<div class="f-content-block">
 						<ul>
 							<li>
 								<img src="image/pd2.jpg">
@@ -322,7 +323,7 @@
 					<header>
 						<h3>Flickr</h3>
 					</header>
-					<div class="content-block">
+					<div class="f-content-block">
 					<table style="margin: auto;">
 						<tr>
 							<td><img src="image/post-1.jpg"></td>

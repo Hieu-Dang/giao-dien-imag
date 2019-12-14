@@ -1,6 +1,8 @@
 *{
 	box-sizing: border-box;
 }
+
+
 body{
 	background-color: #f6f5f1;
 }
@@ -141,8 +143,41 @@ h3 a{
 	font-family: arial;
 	border-bottom: 1px dashed white;
 }
-.about_us .content-block div{
+.about_us .f-content-block div{
+	float: left;
+}
+.f-content-block ul{
+	list-style: none;
+}
+.f-content-block ul li img{
 	float: left;
 }
 
+.content-block_phai ul li img{
+	float: left;
 
+}
+.content-block_phai ul {
+	list-style: none;
+}
+#anhslide{
+	width: 100%;
+}
+
+@media only screen and (max-width: 500px){
+	#page{
+		width: 100%;
+	}
+	nav#main-nav{display: block;}
+	#main-nav ul li{
+		display: block;
+	}
+	#left-page{
+		width: 100%;
+	}
+	#anhslide{
+		width: 100%;
+	}
+
+	
+}
